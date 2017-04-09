@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">InterestingPlaces</string>
+    <string name="title">Lugares Interesantes</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="default_la">19.37850</string>
+    <string name="default_lo">-99.17899</string>
+    <string name="btn_01">Ir a lugar interesante 1</string>
+    <string name="btn_02">Ir a lugar interesante 2</string>
+    <string name="btn_03">Ir a lugar interesante 3</string>
+    <string name="btn_04">Ir a lugar interesante 4</string>
+
+    <string name="place_01">Parque Hundido</string>
+    <string name="lat_place_01">19.37850</string>
+    <string name="lng_place_01">-99.17899</string>
+
+    <string name="place_02">Polyforum Siqueiros</string>
+    <string name="lat_place_02">19.393401</string>
+    <string name="lng_place_02">-99.173571</string>
+
+    <string name="place_03">Monumental Plaza de Toros México</string>
+    <string name="lat_place_03">19.382939305587026</string>
+    <string name="lng_place_03">-99.18009129999996</string>
+
+    <string name="place_04">Pepsi Center WTC</string>
+    <string name="lat_place_04">19.394579605590657</string>
+    <string name="lng_place_04">-99.17480369999998</string>
+</resources>

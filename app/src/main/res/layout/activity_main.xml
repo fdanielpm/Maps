@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fdaniel.interestingplaces.MainActivity">
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn01"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/tvTitle"
+            android:background="@drawable/leaf"
+            android:onClick="goToPlace1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <Button
+            android:id="@+id/btn02"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/btn01"
+            android:background="@drawable/sculpture"
+            android:onClick="goToPlace2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn03"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/btn02"
+            android:background="@drawable/bull"
+            android:onClick="goToPlace3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <Button
+            android:id="@+id/btn04"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/btn03"
+            android:background="@drawable/rock"
+            android:onClick="goToPlace4"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+    </TableRow>
+</TableLayout>
